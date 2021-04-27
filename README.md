@@ -2,33 +2,42 @@
 
 # Galeria de fotos de esculturas usando Laravel e Vue
 
-#Install
-Open your terminal.
+### Install
 
-Clone this repo:
+1. Open your terminal.
 
- git clone https://github.com/herusdianto/laravel-vue-crud.git
-Once finished, change directory to laravel-vue-crud:
+2. Clone this repo:
 
- cd laravel-vue-crud
-Install all laravel dependencies:
+        git clone https://github.com/herusdianto/laravel-vue-crud.git
+    
+3. Once finished, change directory to laravel-vue-crud:
 
- composer install
-Copy .env file:
+        cd laravel-vue-crud
+    
+4. Install all laravel dependencies:
 
- cp .env.example .env
-Modify DB_* value in .env with your database config.
+        composer install
 
-Generate application key:
+5. Copy .env file:
 
- php artisan key:generate
-Run migration table:
+        cp .env.example .env
 
- php artisan migrate
-Create a symbolic link:
+6. Modify `DB_*` value in `.env` with your database config.
 
- php artisan storage:link
-Serve the app:
+7. Generate application key:
 
-php artisan serve
-Open http://localhost:8000/ in your web browser.
+        php artisan key:generate
+
+8. Run migration table:
+
+        php artisan migrate
+
+9. Create a symbolic link:
+
+        php artisan storage:link
+
+10. Serve the app:
+
+        php artisan serve
+
+11. Open `http://localhost:8000/` in your web browser.
