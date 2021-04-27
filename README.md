@@ -8,11 +8,11 @@
 
 2. Clone this repo:
 
-        git clone https://github.com/herusdianto/laravel-vue-crud.git
+        git clone https://github.com/BrunoOgg/Galeria.git
     
 3. Once finished, change directory to laravel-vue-crud:
 
-        cd laravel-vue-crud
+        cd Galeria
     
 4. Install all laravel dependencies:
 
